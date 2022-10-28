@@ -1,14 +1,26 @@
-.about {
+.about-background {
   background-color: rgb(0, 195, 255);
+  height: 30rem;
+  transform: skewY(-0.4rad) translateY(-53%);
+}
+
+.profile-pic {
+  position: absolute;
+  width: 80%;
+  color: black;
+  font-size: 3.5rem;
+  top: 2rem;
+  left: 10vw;
+  box-shadow: 2px 2px 7px rgb(170, 170, 170);
 }
 
 .about-name {
   position: absolute;
   width: 100%;
   color: black;
-  font-size: 3.5rem;
-  top: 17.9rem;
-  left: 2rem;
+  font-size: 3rem;
+  top: 16.5rem;
+  left: 3rem;
   font-family: 'Playfair Display', serif;
 }
 
