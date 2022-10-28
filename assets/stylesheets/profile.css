@@ -1,11 +1,10 @@
 .about {
-  margin-bottom: 2rem;
+  background-color: rgb(0, 195, 255);
 }
 
-.profile-name {
+.about-name {
   position: absolute;
   width: 100%;
-  /* text-align: center; */
   color: black;
   font-size: 3.5rem;
   top: 17.9rem;

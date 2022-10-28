@@ -7,6 +7,9 @@
   flex-direction: column;
 }
 
+.about, .projects {
+  margin-bottom: 2rem;
+}
 
 .profile-pic-container, .about-me, .projects {
   padding: 1.5rem;
