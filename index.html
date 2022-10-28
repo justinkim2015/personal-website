@@ -4,20 +4,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="assets/stylesheets/styles.css">
+  <link rel="stylesheet" href="assets/stylesheets/profile.css">
+  <link rel="stylesheet" href="assets/stylesheets/card.css">
+  <link rel="stylesheet" href="assets/stylesheets/contact.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> 
+
   <title>Justin's Porfolio</title>
 </head>
-<body>
-  <div class="about_me">
-    About me
+
+<body class="flex">
+  <div class="about flex">
+    <div class="profile-pic-container flex">
+      <img src="assets/images/AvatarMaker.png" alt="picture-of-justin" class="profile-pic">
+      <h1 class="profile-name">Justin Kim</h1>
+    </div>
+
+    <div class="about-me flex">
+      <h2 class="about-me-title">About me</h2>
+      <p class="about-me-content">Just an guy from Hawaii living in tokyo who likes to make stuff with his computer.</p>
+    </div>
+
+    <div class="icons">
+     <a href="https://github.com/justinkim2015" class="devicon-github-original colored icon"></a>
+     <a href="https://www.linkedin.com/in/justin-kim-809612ba/" class="devicon-linkedin-plain icon"></a>
+    </div>
   </div>
 
-  <div class="mywork">
-    Project (grid)
+  <div class="projects flex">
+    <h2 class="projects-title">My work</h2>
+
+    <div class="project-card flex">
+      <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
+      <div class="project-body flex">
+        <div class="project-name">
+          <h3>RailsBook</h3>
+          <a href="https://www.linkedin.com/in/justin-kim-809612ba/" class="devicon-github-original colored icon-small"></a>
+        </div>
+        <div class="project-description">
+          I made this with ruby on rails.  It took a while, about a month and a day but I could totally add more too.
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card flex">
+      <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
+      <div class="project-body flex">
+        <div class="project-name">
+          <h3>RailsBook</h3>
+          <a href="https://www.linkedin.com/in/justin-kim-809612ba/" class="devicon-github-original colored icon-small"></a>
+        </div>
+        <div class="project-description">
+          I made this with ruby on rails.  It took a while, about a month and a day but I could totally add more too.
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card flex">
+      <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
+      <div class="project-body flex">
+        <div class="project-name">
+          <h3>RailsBook</h3>
+          <a href="https://www.linkedin.com/in/justin-kim-809612ba/" class="devicon-github-original colored icon-small"></a>
+        </div>
+        <div class="project-description">
+          I made this with ruby on rails.  It took a while, about a month and a day but I could totally add more too.
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card flex">
+      <img src="assets/images/placeholder.jpg" alt="facebook" class="project-image">
+      <div class="project-body flex">
+        <div class="project-name">
+          <h3>RailsBook</h3>
+          <a href="https://www.linkedin.com/in/justin-kim-809612ba/" class="devicon-github-original colored icon-small"></a>
+        </div>
+        <div class="project-description">
+          I made this with ruby on rails.  It took a while, about a month and a day but I could totally add more too.
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="contact_me">
-    footer
+  <div class="contact flex">
   </div>
 </body>
+
 </html>
