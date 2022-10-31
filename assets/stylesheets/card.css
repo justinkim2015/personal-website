@@ -1,3 +1,4 @@
+/* Mobile */
 .projects-title {
   font-size: 2rem;
   text-align: center;
@@ -6,7 +7,6 @@
 .project-card {
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
   box-shadow: 2px 2px 7px rgb(170, 170, 170);
 }
 
@@ -35,4 +35,32 @@
   padding-bottom: 3rem;
   font-family: 'Roboto', sans-serif;
   color: rgb(97, 97, 97);
+}
+
+/* Tablet */
+@media (min-width: 480px) {
+  .projects-title {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 5vh;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    gap: 5vw;
+    align-self: center;
+  }
+
+  .project-image {
+    width: 40vw;
+  }
+
+  .project-body {
+    width: auto;
+  }
+}
+
+/* Computer */
+@media (min-width: 1000px) {
 }
